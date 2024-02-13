@@ -1,0 +1,17 @@
+{
+  "name": "traveloka-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testui" : "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "wiwa",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.17"
+  }
+}
