@@ -1,14 +1,20 @@
 {
-  "name": "traveloka-test",
+  "name": "traveloka-rental-car",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "testui" : "npx playwright test --ui"
   },
-  "keywords": [],
-  "author": "wiwa",
+  "keywords": [
+    "traveloka","automation","e2e","playwright"
+  ],
+  "author": "wira wardhana",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/time24h/rental-car-traveloka.git"
+  },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "@playwright/test": "^1.41.2",
